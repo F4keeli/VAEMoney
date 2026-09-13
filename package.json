@@ -1,0 +1,22 @@
+{
+  "name": "vae",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VAE — team earnings, expenses and member rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/api.test.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^5.2.1"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^13.0.3"
+  }
+}
